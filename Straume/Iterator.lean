@@ -83,7 +83,7 @@ instance : Iterable (List Bit) Bit where
   curr | ⟨s, i⟩ => let i' := if i < s.length then i else s.length - 1
       -- pos shouldn't increase if ¬s.hasNext, but it's possible to construct
       -- such an iterator manually, so we have to return the last byte.
-    if s.isEmpty then default else s.get! i'
+    if s.isEmpty then default else s[i']!
 
 def forward [Iterable α β] : Iterator α → Nat → Iterator α
   | it, 0   => it

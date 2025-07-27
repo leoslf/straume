@@ -12,7 +12,7 @@ require LSpec from git
   "https://github.com/argumentcomputer/LSpec" @ "24cceb69c20fadca0fd3acabe39fa9270dfb47e6"
 
 require YatimaStdLib from git
-  "https://github.com/leoslf/YatimaStdLib.lean" @ "e7719ffc68d4f844e74ac171be906d31ae425f7f"
+  "https://github.com/leoslf/YatimaStdLib.lean" @ "c6e0cf01dc8c16654044c166c69b777043a8d7e0"
 
 @[default_target]
 lean_exe straume where
