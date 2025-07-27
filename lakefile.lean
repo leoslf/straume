@@ -5,14 +5,14 @@ package Straume
 
 lean_lib Straume
 
-require std from git
-  "https://github.com/leanprover/std4" @ "v4.4.0"
+require batteries from git
+  "https://github.com/leanprover-community/batteries" @ "v4.22.0-rc3"
 
 require LSpec from git
-  "https://github.com/lurk-lab/LSpec" @ "3388be5a1d1390594a74ec469fd54a5d84ff6114"
+  "https://github.com/argumentcomputer/LSpec" @ "24cceb69c20fadca0fd3acabe39fa9270dfb47e6"
 
 require YatimaStdLib from git
-  "https://github.com/lurk-lab/YatimaStdLib.lean" @ "3037f0c14128751b95510c2723f067ec7a494f08"
+  "https://github.com/leoslf/YatimaStdLib.lean" @ "e7719ffc68d4f844e74ac171be906d31ae425f7f"
 
 @[default_target]
 lean_exe straume where
