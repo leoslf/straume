@@ -6,13 +6,13 @@ package Straume
 lean_lib Straume
 
 require batteries from git
-  "https://github.com/leanprover-community/batteries" @ "v4.22.0-rc4"
+  "https://github.com/leanprover-community/batteries" @ "v4.23.0-rc2"
 
 require LSpec from git
-  "https://github.com/argumentcomputer/LSpec" @ "24cceb69c20fadca0fd3acabe39fa9270dfb47e6"
+  "https://github.com/leoslf/LSpec" @ "feature/spec"
 
 require YatimaStdLib from git
-  "https://github.com/leoslf/YatimaStdLib.lean" @ "c9439e98d445a55ae9b9397631971883c715063d"
+  "https://github.com/leoslf/YatimaStdLib.lean" @ "main"
 
 @[default_target]
 lean_exe straume where
